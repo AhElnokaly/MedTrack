@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">أمين</string>
+
+    <!-- Medical Lock-Screen Privacy Strings -->
+    <string name="alarm_public_title">⏰ موعد دواء</string>
+    <string name="alarm_public_text">يرجى فتح القفل لتأكيد تناول الجرعة المحددة.</string>
+    <string name="alarm_private_title_primary">💊 موعد دواء %1$s: %2$s</string>
+    <string name="alarm_private_title_reminder">⏰ تذكير ثانٍ: دواء %1$s لـ %2$s</string>
+    <string name="alarm_private_title_critical">🚨 تنبيه حرج: ضروري تناول %1$s لـ %2$s</string>
+    <string name="alarm_private_content">الجرعة: %1$s • %2$s</string>
+
+    <!-- Notification & Activity Action Buttons -->
+    <string name="action_take_dose">أخدت ✓</string>
+    <string name="action_snooze_15">أجّل ⏰</string>
+    <string name="action_skip_dose">تخطّى ✕</string>
+    <string name="action_stop_alarm">إيقاف المنبه 🛑</string>
+
+    <!-- Notification Channels -->
+    <string name="channel_primary_name">تذكيرات الأدوية اليومية</string>
+    <string name="channel_primary_desc">تنبيهات مواعيد تناول الدواء في أوقاتها المحددة</string>
+    <string name="channel_critical_name">تنبيهات الأدوية الحرجة (ضغط/سكر/قلب)</string>
+    <string name="channel_critical_desc">تنبيهات مشددة متكررة للأدوية الحساسة</string>
+    <string name="channel_playback_name">منبه الأدوية الصوتي الحقيقي</string>
+    <string name="channel_playback_desc">قناة المنبه الصوتي المستمر لأدوية تطبيق أمين</string>
+
+    <!-- Full-Screen Permission Missing Fallback Banner -->
+    <string name="banner_fullscreen_permission_title">تنبيه شاشة القفل معطّل</string>
+    <string name="banner_fullscreen_permission_desc">يحتاج التطبيق إلى إذن إظهار المنبه على كامل شاشة القفل ليوقظ الهاتف فور موعد الجرعة.</string>
+    <string name="banner_fullscreen_permission_btn">تفعيل الإذن الآن</string>
+
+    <!-- Diagnostics / Self-Test Screen -->
+    <string name="diagnostics_screen_title">فحص جاهزية المنبهات</string>
+    <string name="diagnostics_screen_subtitle">تحقق من الصلاحيات وإعدادات البطارية لضمان رنين المنبه بدقة على شاشة القفل</string>
+    <string name="diag_perm_notifications">إذن إرسال الإشعارات (POST_NOTIFICATIONS)</string>
+    <string name="diag_perm_exact_alarm">إذن المنبهات الدقيقة (SCHEDULE_EXACT_ALARM)</string>
+    <string name="diag_perm_fullscreen">إذن ملء شاشة القفل (USE_FULL_SCREEN_INTENT)</string>
+    <string name="diag_perm_battery">استثناء من توفير البطارية (Battery Optimization)</string>
+    <string name="diag_status_granted">مفعّل ✓</string>
+    <string name="diag_status_missing">معطّل ⚠️</string>
+    <string name="diag_btn_fix">إصلاح الإعداد</string>
+    <string name="diag_btn_test_10s">تجربة المنبه بعد 10 ثوانٍ ⏱️</string>
+    <string name="diag_test_scheduled_toast">تمت جدولة منبه تجريبي بعد 10 ثوانٍ! يرجى إغلاق وقفل الشاشة للتجربة.</string>
+    <string name="diag_oem_guide_btn">إرشادات ضبط الهاتف (شاومي / سامسونج / أوبو)</string>
+
+    <!-- OEM Guidance Dialog -->
+    <string name="oem_dialog_title">إعدادات الحماية للهواتف الذكية</string>
+    <string name="oem_dialog_generic">تقوم أنظمة بعض الهواتف بإنهاء عمل المنبهات في الخلفية لتوفير البطارية. يرجى التأكد من تفعيل:
+1. التشغيل التلقائي (Autostart).
+2. إزالة قيود البطارية (No restrictions / Unrestricted).
+3. السماح بالنوافذ المنبثقة على شاشة القفل.</string>
+    <string name="oem_dialog_xiaomi">لهواتف شاومي (Xiaomi / Redmi / POCO):
+1. افتح الإعدادات > التطبيقات > إدارة التطبيقات > أمين.
+2. فعّل خيار "التشغيل التلقائي" (Autostart).
+3. اختر موفر البطارية: "لا توجد قيود" (No restrictions).
+4. الأذونات الأخرى: فعّل "العرض على شاشة القفل" و"النوافذ المنبثقة".</string>
+    <string name="oem_dialog_samsung">لهواتف سامسونج (Samsung):
+1. افتح الضبط > التطبيقات > أمين > البطارية.
+2. حدد "غير مقيد" (Unrestricted).
+3. من الضبط > العناية بالجهاز > البطارية > حدود الاستخدام في الخلفية: تأكد أن تطبيق أمين ليس في قائمة "التطبيقات في وضع السكون التام".</string>
+    <string name="oem_dialog_oppo">لهواتف أوبو وريلمي (OPPO / Realme):
+1. افتح الإعدادات > إدارة التطبيقات > أمين.
+2. إدارة البطارية: فعّل "السماح بالنشاط في الخلفية" و"السماح ببدء التشغيل التلقائي".</string>
+    <string name="oem_dialog_open_settings">فتح إعدادات التطبيق</string>
+    <string name="oem_dialog_close">تم وفهمت</string>
+
+    <!-- Toast messages -->
+    <string name="toast_dose_taken">تم تسجيل تناول الجرعة وإلغاء التنبيهات المتبقية ✓</string>
+    <string name="toast_dose_snoozed">تم تأجيل الجرعة 15 دقيقة ⏰</string>
+    <string name="toast_dose_skipped">تم تخطي الجرعة الحالية وإلغاء المنبه ✕</string>
+</resources>
